@@ -13,7 +13,7 @@ This R Markdown document contains an example of leaflet usage.
 
 The example is a map of all Roger Waters concerts in North America in 2017. Details of the concerts can be views on the official [web site](http://www.rogerwaters.com).  
 
-First we'll read a csv file that was prepared with the data. This file was created by a separate R script [get_concerts.R](http://www.github.com/bkelemen56). This script performs data scraping on the official site for the table of concerts, and then uses Google map API to retrieve the latitud/longitud coordinates for each venue.
+First we'll read a csv file that was prepared with the data. This file was created by a separate R script [get_concerts.R](https://github.com/bkelemen56/R-leaflet-example/blob/master/get_concerts.R). This script performs data scraping on the official site for the table of concerts, and then uses Google map API to retrieve the latitud/longitud coordinates for each venue.
 
 ```{r cars}
 concerts <- read.csv("data/concerts.csv")
